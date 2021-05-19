@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MedBangVisual" type="Application" factoryName="Application" folderName="Visual">
+    <option name="MAIN_CLASS_NAME" value="cs3500.animator.Excellence" />
+    <module name="BasicAnimation" />
+    <option name="PROGRAM_PARAMETERS" value="-in src/cs3500/animator/view/starter_files/big-bang-medium.txt -view visual -speed 26" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
