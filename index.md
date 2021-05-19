@@ -1,3 +1,12 @@
+<embed 
+id="BigBang"
+type="application/x-java-applet;version=1.8"
+width="999" height="999" 
+archive="BasicAnimation.jar"
+code="Excellence.class"
+pluginspage="http://java.com/download/"
+myParam="-in src/cs3500/animator/view/starter_files/big-bang-big-crunch.txt -view visual -speed 26" />
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/GregoryNau/BasicAnimation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
