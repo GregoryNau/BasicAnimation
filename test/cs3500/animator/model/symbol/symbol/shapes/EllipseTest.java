@@ -1,20 +1,21 @@
 package cs3500.animator.model.symbol.symbol.shapes;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertNotSame;
-
 import cs3500.animator.model.symbol.symbol.KeyframeList;
 import cs3500.animator.model.symbol.symbol.Symbol;
 import org.junit.Test;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.not;
+import static org.junit.Assert.*;
 
 /**
  * Tests {@link Ellipse}.
  */
 public class EllipseTest {
+
+  private void assertNotEquals(Object a, Object b) {
+    assertThat(a, is(not(b)));
+  }
 
   @Test
   public void testGetType() {

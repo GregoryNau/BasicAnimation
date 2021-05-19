@@ -2,7 +2,8 @@ package cs3500.animator.model.symbol.symbol;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertThat;
+import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertNotSame;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
@@ -27,6 +28,10 @@ public class KeyframeListTest {
   private KeyframeList defaultSymbolMirror;
   private KeyframeList allMotionMirror;
   private KeyframeList noMotionMirror;
+
+  private void assertNotEquals(Object a, Object b) {
+    assertThat(a, is(not(b)));
+  }
 
   /**
    * Creates {@link KeyframeList} for testing.

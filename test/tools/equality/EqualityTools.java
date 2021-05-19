@@ -1,8 +1,9 @@
 package tools.equality;
 
 import static junit.framework.TestCase.assertEquals;
-import static org.junit.Assert.assertNotEquals;
-import static org.junit.Assert.assertNotSame;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.not;
+import static org.junit.Assert.*;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -27,6 +28,10 @@ public abstract class EqualityTools {
    * An enumeration representing the two types of equality we may test.
    */
   private enum Equality { VALUE, REFERENCE }
+
+  private static void assertNotEquals(Object a, Object b) {
+    assertThat(a, is(not(b)));
+  }
 
   /**
    * Runs all necessary equality tests on a Map, given the type of equality to test.
