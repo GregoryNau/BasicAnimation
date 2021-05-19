@@ -1,8 +1,8 @@
-Attempt #3
+Attempt #4
 <embed 
 id="Hannoi"
 type="application/x-java-applet;version=1.8"
-width="999" height="999" 
+width="600" height="200" 
 archive="BasicAnimation.jar"
 code="cs3500.animator.Excellence.class"
 pluginspage="http://java.com/download/"
