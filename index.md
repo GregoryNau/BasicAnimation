@@ -1,12 +1,12 @@
-Attempt #2
+Attempt #3
 <embed 
-id="BigBang"
+id="Hannoi"
 type="application/x-java-applet;version=1.8"
 width="999" height="999" 
 archive="BasicAnimation.jar"
 code="cs3500.animator.Excellence.class"
 pluginspage="http://java.com/download/"
-myParam="-in src/cs3500/animator/view/starter_files/big-bang-big-crunch.txt -view visual -speed 26" />
+myParam="-in src/cs3500/animator/view/starter_files/hanoi.txt -view visual -speed 26" />
 
 ## Welcome to GitHub Pages
 
