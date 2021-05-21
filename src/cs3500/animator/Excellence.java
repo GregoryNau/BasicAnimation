@@ -24,6 +24,9 @@ public final class Excellence {
 
     // Build the controller
     try {
+      if (args.length == 0) {
+        args = RunConfigs.getRandom().getRunArgs();
+      }
       for (int i = 0; i < args.length; i++) {
         switch (args[i]) {
           case ("-in"):
