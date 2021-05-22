@@ -26,7 +26,7 @@ public enum RunConfigs {
         args[0] = "-in";
         args[1] = this.filePath;
         args[2] = "-view";
-        args[3] = "visual";
+        args[3] = "edit";
         args[4] = "-speed";
         args[5] = Integer.toString(this.fps);
         return args;
