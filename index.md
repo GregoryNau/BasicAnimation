@@ -1,4 +1,4 @@
-## Basic Animation will display an animation based on a text format
+## Basic Animation will display custom animations
 
 Linked below is a demo file. To see the animations, please download the file and run the .jar file.
 
