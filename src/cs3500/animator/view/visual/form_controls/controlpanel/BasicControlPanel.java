@@ -59,8 +59,8 @@ public class BasicControlPanel extends JPanel {
     this.play = new JButton("play");
     this.loop = new JButton("loop");
     this.replay = new JButton("replay");
-    this.setSpeed = new JButton("set FPS");
-    this.speedBox = new JTextField("set FPS here");
+    this.setSpeed = new JButton("set speed");
+    this.speedBox = new JTextField("set speed");
     this.goTo = new JButton("GoTo Frame");
 
     //this.addFrame.addActionListener(ControlListener.AddKeyframe);
