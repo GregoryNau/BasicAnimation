@@ -13,6 +13,8 @@ import cs3500.animator.view.visual.window.LayoutWindow;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
+
+
 /**
  * Exists to construct instantiations of Interfaces without needing to depend on a
  * specific implementation.
@@ -68,3 +70,4 @@ public interface Factory {
     return control;
   }
 }
+
