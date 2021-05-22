@@ -7,11 +7,16 @@ Linked below is a demo file. To see the animations, please download the file and
 The demo file will then display, randomly, one of three animations (displayed below as snapshots of the animation).
 This was done for ease of use, since the non-demo project is meant to be run with parameters from the command line.
 
+### Hannoi Towers
 ![Image](HannoiPic.png)
+
+### Buildings
 ![Image](BuildingsPic.png)
+
+### Big-Bang-Crunch
 ![Image](Big-BangPic.png)
 
-### The text format
+## The text format
 
 If you wish to display a custom animation, create a .txt file and describe your animation using the following format.
 
